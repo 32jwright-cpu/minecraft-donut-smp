@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Donut SMP Economy System - Sell blocks and shop for items",
+    "name": "Donut SMP Economy",
+    "uuid": "12345678-1234-1234-1234-123456789012",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "description": "Economy System Scripts",
+      "type": "script",
+      "uuid": "87654321-4321-4321-4321-210987654321",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "b501116d-8b83-42f6-86a4-52ce4d4a5695",
+      "version": [1, 0, 0]
+    }
+  ]
+}
